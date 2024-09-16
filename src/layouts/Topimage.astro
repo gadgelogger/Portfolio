@@ -1,0 +1,17 @@
+<div class="top-image">
+  <img src="src/components/IMG_9845.JPG" alt="Top Image">
+</div>
+
+<style>
+  .top-image img {
+    width: 100%;
+    height: 1000px; /* 固定の高さを設定 */
+    object-fit: cover; /* 画像が歪まないように調整 */
+  }
+
+  @media (max-width: 768px) {
+    .top-image img {
+      height: auto; /* 高さを自動調整 */
+    }
+  }
+</style>
